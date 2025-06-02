@@ -44,8 +44,10 @@ Welcome to the **Edu Trailblaze** repository! This project is an **online course
 ## Getting Started
 To get started with this project, clone the repository and follow the setup instructions provided in the documentation.
 
-## Connect with Us
-For any queries or contributions, feel free to reach out!
+## 📬 Contact Us
+Feel free to reach out via [Edu Trailblaze](mailto:edutrailblaze@gmail.com) for any inquiries or support.
+
+---
 
 ---
 
