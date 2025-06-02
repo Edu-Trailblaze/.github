@@ -14,9 +14,9 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
-Welcome to the **Edu Trailblaze** repository! This project is an **online course website** designed to cater to three main roles: **Student**, **Instructor**, and **Admin**.
+🎉🎉🎉Welcome to the **Edu Trailblaze** repository! This project is an **online course website** designed to cater to three main roles: **Student**, **Instructor**, and **Admin**.
 
-## Features
+## 🚀 Features
 - **ASP.NET Core Web API**: The backbone of the application.
 - **Identity Framework**: For secure user authentication and role management.
 - **Microsoft SQL Server**: Robust database management.
@@ -30,7 +30,7 @@ Welcome to the **Edu Trailblaze** repository! This project is an **online course
 - **Authentication & Authorization** with role-based access control.  
 - **Responsive UI** built with Next.js, Tailwind CSS, ShadCN UI, Motion and MUI.  
 
-## Roles
+## 🛠️ Roles
 1. **Student**: 
    - Enroll in courses.
    - Track progress and achievements.
@@ -41,13 +41,8 @@ Welcome to the **Edu Trailblaze** repository! This project is an **online course
    - Oversee platform operations.
    - Approve or reject course tags using AI predictions.
 
-## Getting Started
-To get started with this project, clone the repository and follow the setup instructions provided in the documentation.
-
 ## 📬 Contact Us
 Feel free to reach out via [Edu Trailblaze](mailto:edutrailblaze@gmail.com) for any inquiries or support.
-
----
 
 ---
 
