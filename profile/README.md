@@ -1,5 +1,6 @@
 [![Edu-trailblaze-CD-Main](https://github.com/Edu-Trailbl/Edu-Trailblaze-BE/actions/workflows/main_edu-trailblaze.yml/badge.svg)](https://github.com/Edu-Trailbl/Edu-Trailblaze-BE/actions/workflows/main_edu-trailblaze.yml)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![CodeQL](https://github.com/Edu-Trailblaze/Edu-Trailblaze-BE/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Edu-Trailblaze/Edu-Trailblaze-BE/actions/workflows/github-code-scanning/codeql)
 
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=for-the-badge&logo=dot-net&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
