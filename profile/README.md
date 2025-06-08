@@ -1,4 +1,6 @@
-[![Edu-trailblaze-CD-Main](https://github.com/Edu-Trailbl/Edu-Trailblaze-BE/actions/workflows/main_edu-trailblaze.yml/badge.svg)](https://github.com/Edu-Trailbl/Edu-Trailblaze-BE/actions/workflows/main_edu-trailblaze.yml)
+# 🎓 Edu Trailblaze
+
+[![Edu-trailblaze-CD-Main](https://github.com/Edu-Trailblaze/Edu-Trailblaze-BE/actions/workflows/main_edu-trailblaze.yml/badge.svg)](https://github.com/Edu-Trailblaze/Edu-Trailblaze-BE/actions/workflows/main_edu-trailblaze.yml)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![CodeQL](https://github.com/Edu-Trailblaze/Edu-Trailblaze-BE/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Edu-Trailblaze/Edu-Trailblaze-BE/actions/workflows/github-code-scanning/codeql)
 
@@ -15,41 +17,84 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
-🎉🎉🎉Welcome to the **Edu Trailblaze** repository! This project is an **online course website** designed to cater to three main roles: **Student**, **Instructor**, and **Admin**.
+---
+
+## 🧠 Overview
+
+**Edu Trailblaze** is an intelligent online course platform that supports **students**, **instructors**, and **administrators**. It follows a **monolith + microservices** hybrid architecture for flexibility and scalability.
+
+### Key Highlights
+
+- ✅ **Monolithic core** (.NET API with Identity, SignalR, Hangfire)
+- 🚪 **Ocelot API Gateway** for routing/auth/authentication
+- 📦 **Cart Microservice** (CQRS, MediatR, Redis)
+- 🔄 **Event-Driven Architecture** with RabbitMQ
+- 📚 **Reusable shared libraries**: Logging, Contracts, EventBus, Seedwork
+- 🧠 **AI integrations** for intelligent recommendations
+- 💬 **Real-time updates** via SignalR
+- 🧵 **Background tasks** using Hangfire
+- 🔍 **Search & analytics** powered by Elasticsearch
 
 ---
 
-## 🚀 Features
+## 🧩 Features
 
-- ⚙️ **ASP.NET Core Web API**: The backbone of the application.
-- 🔐 **Identity Framework**: Secure user authentication and role management.
-- 🗄️ **Microsoft SQL Server**: Robust database management.
-- 🔔 **SignalR**: Real-time communication for seamless interactions.
-- ⏳ **Hangfire**: Background job processing for efficient task management.
-- 🤖 **Generative AI**: Reads the database and provides intelligent insights.
-- 🏷️ **Fine-tuned AI**: Predicts course tags for approval, enhancing the user experience.
-- 👨‍🎓 **Students**: Browse and enroll in courses.
-- 👩‍🏫 **Teachers**: Create and publish courses.
-- 🛡️ **Admin**: Manage users, courses, and platform settings.
-- 🛂 **Authentication & Authorization**: Role-based access control.
-- 💻 **Responsive UI**: Built with Next.js, Tailwind CSS, ShadCN UI, Motion, and MUI.
+- **Authentication & Authorization**
+  - Secure login via Identity + JWT
+  - Role-based access for admin, instructors, students
+
+- **Course Management**
+  - Create and manage courses, materials, pricing
+  - Tagging system powered by AI
+  - Real-time approval flow
+
+- **AI-Powered Tagging**
+  - Suggests course tags before publishing using custom-trained models
+
+- **Cart System**
+  - Microservice with independent DB, Redis cache, and event sourcing
+
+- **Background Jobs**
+  - Hangfire manages email, notifications, AI training, etc.
+
+- **Real-Time Events**
+  - SignalR for live notifications, chat, instructor alerts
+
+- **Event Bus**
+  - RabbitMQ used for pub/sub across services
 
 ---
 
-## 🛠️ Roles
+## 👥 Roles & Capabilities
 
 | Role        | Capabilities                                                                 |
 |-------------|------------------------------------------------------------------------------|
-| **Student**    | - Enroll in courses.<br>- Track progress and achievements.                   |
-| **Instructor** | - Create and manage courses.<br>- Interact with students.                    |
-| **Admin**      | - Oversee platform operations.<br>- Approve or reject course tags using AI.  |
+| **Student**    | Enroll in courses, track progress, get real-time updates.                  |
+| **Instructor** | Create courses, update materials, handle feedback.                         |
+| **Admin**      | Manage users, approve tags, monitor platform-wide activities.              |
 
 ---
 
-## 📬 Contact Us
+## 🛠️ Tech Stack Summary
 
-Feel free to reach out via [Edu Trailblaze](mailto:edutrailblaze@gmail.com) for any inquiries or support.
+| Layer                 | Technologies Used                                                   |
+|-----------------------|---------------------------------------------------------------------|
+| **Frontend**          | Next.js, TailwindCSS, Redux Toolkit, ShadCN UI, MUI, Framer Motion |
+| **API Gateway**       | Ocelot                                                              |
+| **Monolithic Core**   | ASP.NET Core, EF Core, Hangfire, SignalR                           |
+| **Microservices**     | ASP.NET Core, MediatR, CQRS, Redis                                  |
+| **Search Engine**     | Elasticsearch                                                       |
+| **Message Broker**    | RabbitMQ                                                            |
+| **Storage**           | SQL Server, Redis                                                   |
+| **AI Integration**    | Custom ML/LLM models (tag suggestion, prediction engines)          |
+| **External Services** | Cloudinary, Payment Gateways, ClamAV                               |
 
 ---
 
-© 2025 EduTrailblaze
+## 📬 Contact
+
+📧 [edutrailblaze@gmail.com](mailto:edutrailblaze@gmail.com)
+
+---
+
+© 2025 Edu Trailblaze – Open-source & MIT Licensed
