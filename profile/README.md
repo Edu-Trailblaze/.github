@@ -17,32 +17,37 @@
 
 🎉🎉🎉Welcome to the **Edu Trailblaze** repository! This project is an **online course website** designed to cater to three main roles: **Student**, **Instructor**, and **Admin**.
 
+---
+
 ## 🚀 Features
-- **ASP.NET Core Web API**: The backbone of the application.
-- **Identity Framework**: For secure user authentication and role management.
-- **Microsoft SQL Server**: Robust database management.
-- **SignalR**: Real-time communication for seamless interactions.
-- **Hangfire**: Background job processing for efficient task management.
-- **Generative AI**: Reads the database and provides intelligent insights.
-- **Fine-tuned AI**: Predicts course tags for approval, enhancing the user experience.
-- **Students**: Browse and enroll in courses.  
-- **Teachers**: Create and publish courses.  
-- **Admin**: Manage users, courses, and platform settings.  
-- **Authentication & Authorization** with role-based access control.  
-- **Responsive UI** built with Next.js, Tailwind CSS, ShadCN UI, Motion and MUI.  
+
+- ⚙️ **ASP.NET Core Web API**: The backbone of the application.
+- 🔐 **Identity Framework**: Secure user authentication and role management.
+- 🗄️ **Microsoft SQL Server**: Robust database management.
+- 🔔 **SignalR**: Real-time communication for seamless interactions.
+- ⏳ **Hangfire**: Background job processing for efficient task management.
+- 🤖 **Generative AI**: Reads the database and provides intelligent insights.
+- 🏷️ **Fine-tuned AI**: Predicts course tags for approval, enhancing the user experience.
+- 👨‍🎓 **Students**: Browse and enroll in courses.
+- 👩‍🏫 **Teachers**: Create and publish courses.
+- 🛡️ **Admin**: Manage users, courses, and platform settings.
+- 🛂 **Authentication & Authorization**: Role-based access control.
+- 💻 **Responsive UI**: Built with Next.js, Tailwind CSS, ShadCN UI, Motion, and MUI.
+
+---
 
 ## 🛠️ Roles
-1. **Student**: 
-   - Enroll in courses.
-   - Track progress and achievements.
-2. **Instructor**: 
-   - Create and manage courses.
-   - Interact with students.
-3. **Admin**: 
-   - Oversee platform operations.
-   - Approve or reject course tags using AI predictions.
+
+| Role        | Capabilities                                                                 |
+|-------------|------------------------------------------------------------------------------|
+| **Student**    | - Enroll in courses.<br>- Track progress and achievements.                   |
+| **Instructor** | - Create and manage courses.<br>- Interact with students.                    |
+| **Admin**      | - Oversee platform operations.<br>- Approve or reject course tags using AI.  |
+
+---
 
 ## 📬 Contact Us
+
 Feel free to reach out via [Edu Trailblaze](mailto:edutrailblaze@gmail.com) for any inquiries or support.
 
 ---
